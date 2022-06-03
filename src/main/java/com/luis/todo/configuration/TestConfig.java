@@ -17,7 +17,7 @@ import com.luis.todo.services.DBService;
 
 @Configuration
 @Profile("test")
-public class TestConfig extends WebSecurityConfigurerAdapter {
+public class TestConfig{
 
 	@Bean
 	CorsConfigurationSource corsConfigurationSource() {
